@@ -1,42 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 body {
-  background: #696969;
+  background: #1C1C1C;
   font-family: "Montserrat", sans-serif;
   min-width: 1500px;
 }
 
-u {
-  color: red;
+.background {
+  background: #FFFFFF;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1px 20% 600px 0px;
 }
 
-#corpo {
-  border: 1px white solid;
-  text-align: center;
-}
+/* MENU */
 
 .cabeçalho {
   position: relative;
-  margin: 1 auto;
+  margin: 0 auto;
 }
 
 header {
   background: #4f4f4f;
+  width: 50%;
+  height: 150px;
+  margin: 0 auto;
+  padding: 1px 20% 1px 0px;
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 nav {
   position: relative;
-  text-align: center;
-  bottom: 100px;
+  bottom: 85px;
+  left: 350px;
 }
 
 nav li {
@@ -46,6 +44,9 @@ nav li {
 }
 
 nav a {
+  text-decoration: none;
+  top: 0;
+  left: 0;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
@@ -53,27 +54,38 @@ nav a {
   font-size: 22px;
 }
 
-.texto-principal {
-  text-align: center;
-  padding: 90px;
-  font-size: 25px;
-  color: #ffffff;
-}
+/* PÁGINA DE INICIO*/
 
-.texto {
-  padding: 20px;
+.texto ul {
+  text-align: center;
+  padding: 1px 20px 1px 400px;
   font-size: 20px;
   color: #ffffff;
   font-weight: bold;
-
+  list-style: none;
 }
 
 .cincojogos {
-  width: 100%;
+  width: 70%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* PÁGINA DE CONTATO */
+
 .texto-contato {
+  padding: 1px 20px 1px 400px;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
+}
+
+/* TEXTO PARA MOSTRAR QUE A PÁGINA ESTÁ EM CONSTRUÇÃO (ALTERAR NOME DEPOIS) */
+
+.texto-principal {
   text-align: center;
+  padding: 1px 20px 1px 400px;
+  font-size: 25px;
+  color: #000000;
 }
