@@ -2,6 +2,7 @@ body {
   background: #1C1C1C;
   font-family: "Montserrat", sans-serif;
   min-width: 1500px;
+  overflow-y: scroll;
 }
 
 .background {
