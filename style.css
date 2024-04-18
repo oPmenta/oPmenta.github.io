@@ -86,6 +86,7 @@ nav a:hover {
 }
 
 /* PÁGINA DE RANKING */
+
 .rankings {
   padding: 1px 5%;
   margin: 0 auto;
@@ -135,6 +136,8 @@ nav a:hover {
   width: 150px;
   height: 150px;
 }
+
+/* RODAPE DA PAGINA */
 
 footer {
   text-align: center;
