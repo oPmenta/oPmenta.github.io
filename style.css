@@ -1,15 +1,15 @@
 body {
-  background: #1C1C1C;
+  background: #1c1c1c;
   font-family: "Montserrat", sans-serif;
-  min-width: 1500px;
   overflow-y: scroll;
 }
 
 .background {
-  background: #FFFFFF;
+  background: #ffffff;
   width: 50%;
+  height: 1100px;
   margin: 0 auto;
-  padding: 1px 20% 1000px 0px;
+  padding: 1px 5%;
 }
 
 /* MENU */
@@ -22,44 +22,45 @@ body {
 header {
   background: #4f4f4f;
   width: 50%;
-  height: 150px;
+  height: 170px;
   margin: 0 auto;
-  padding: 1px 20% 1px 0px;
+  padding: 1px 5%;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
 }
 
 nav {
   position: relative;
-  bottom: 85px;
-  left: 350px;
+  bottom: 100px;
+  left: 200px;
 }
 
 nav li {
   display: inline;
-  max-width: 700px;
-  margin: 0 30px 250px;
+  margin: 0 20px;
 }
 
 nav a {
   text-decoration: none;
-  top: 0;
-  left: 0;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
   font-style: 22px;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: red;
 }
 
 /* PÁGINA DE INICIO*/
 
 .texto ul {
   text-align: center;
-  padding: 1px 20px 1px 400px;
+  padding: 1px 5%;
   font-size: 20px;
   color: #ffffff;
   font-weight: bold;
@@ -67,7 +68,7 @@ nav a {
 }
 
 .cincojogos {
-  width: 70%;
+  width: 60%;
   height: 50%;
   display: block;
   margin-left: auto;
@@ -78,16 +79,83 @@ nav a {
 
 .texto-contato {
   text-align: center;
-  padding: 1px 20px 1px 400px;
+  padding: 1px 5%;
   font-size: 20px;
   color: #000000;
+}
+
+/* PÁGINA DE RANKING */
+.rankings {
+  padding: 1px 5%;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.rankings li {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 5%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+.rankings li:hover {
+  border-color: red;
+}
+
+.rankings li:active {
+  border-color: #ffffff;
+}
+
+.rankings li:hover h2 {
+  font-size: 34px;
+}
+
+.rankings h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ranking-descricao {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.r1 {
+  width: 150px;
+  height: 150px;
+}
+
+.r2 {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+}
+
+.GhostFaceRodape {
+  margin-top: 5%;
+  width: 500px;
+  height: 200px;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 30px;
 }
 
 /* TEXTO PARA MOSTRAR QUE A PÁGINA ESTÁ EM CONSTRUÇÃO (ALTERAR NOME DEPOIS) */
 
 .texto-principal {
   text-align: center;
-  padding: 1px 20px 1px 400px;
+  padding: 1px 5%;
   font-size: 25px;
   color: #000000;
 }
