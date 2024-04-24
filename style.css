@@ -75,6 +75,7 @@ div a:hover {
   box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
+  border: 2px solid white;
 }
 
 .cincojogos {
@@ -152,11 +153,11 @@ main {
 }
 
 .ranking-1 li:active {
-  border-color: #e4dfdf;
+  border-color: #eeeeee;
 }
 
 .ranking-2 li:active {
-  border-color: #e4dfdf;
+  border-color: #eeeeee;
 }
 
 .ranking-1 li:hover h2 {
