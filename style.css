@@ -1,15 +1,14 @@
 body {
-  background: #1c1c1c;
+  background: #292828;
   font-family: "Montserrat", sans-serif;
   overflow-y: scroll;
 }
 
 .background {
-  background: #ffffff;
-  width: 50%;
-  height: 1100px;
+  background: #eeeeee;
+  width: 60%;
+  min-height: 600px;
   margin: 0 auto;
-  padding: 1px 5%;
   margin-bottom: 2%;
 }
 
@@ -47,7 +46,7 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #f7f7f7;
   font-weight: bold;
   font-style: 22px;
   font-size: 20px;
@@ -59,13 +58,23 @@ nav a:hover {
 
 /* PÁGINA DE INICIO*/
 
-.texto ul {
-  text-align: center;
-  padding: 1px 5%;
+.texto {
+  position: absolute;
+  display: flex;
+}
+
+div a:hover {
+  color: red;
+}
+
+.texto a {
   font-size: 20px;
-  color: #ffffff;
   font-weight: bold;
-  list-style: none;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .cincojogos {
@@ -87,44 +96,93 @@ nav a:hover {
 
 /* PÁGINA DE RANKING */
 
-.rankings {
+main {
+  display: flex;
+}
+
+.texto-ranking {
+  text-align: center;
+  padding: 1px 5%;
+  font-size: 25px;
+  color: #000000;
+}
+
+.ranking-1 {
   padding: 1px 5%;
   margin: 0 auto;
-  width: 70%;
+  width: 38%;
   text-align: center;
 }
 
-.rankings li {
+.ranking-1 li {
+  height: 370px;
   display: inline-block;
   text-align: center;
-  width: 50%;
   vertical-align: top;
-  margin-top: 5%;
+  margin-top: 20%;
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 20px;
 }
 
-.rankings li:hover {
+.ranking-2 {
+  padding: 1px 5%;
+  margin: 0 auto;
+  width: 38%;
+  text-align: center;
+}
+
+.ranking-2 li {
+  height: 370px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 20%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+.ranking-1 li:hover {
   border-color: red;
 }
 
-.rankings li:active {
-  border-color: #ffffff;
+.ranking-2 li:hover {
+  border-color: red;
 }
 
-.rankings li:hover h2 {
-  font-size: 34px;
+.ranking-1 li:active {
+  border-color: #e4dfdf;
 }
 
-.rankings h2 {
+.ranking-2 li:active {
+  border-color: #e4dfdf;
+}
+
+.ranking-1 li:hover h2 {
   font-size: 30px;
+}
+
+.ranking-2 li:hover h2 {
+  font-size: 30px;
+}
+
+.ranking-1 h2 {
+  font-size: 25px;
   font-weight: bold;
+  color: black;
+}
+
+.ranking-2 h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
 }
 
 .ranking-descricao {
   font-size: 18px;
   font-weight: bold;
+  color: black;
 }
 
 .r1 {
@@ -137,6 +195,10 @@ nav a:hover {
   height: 150px;
 }
 
+h2 {
+  color: #000000;
+}
+
 /* RODAPE DA PAGINA */
 
 footer {
@@ -145,14 +207,14 @@ footer {
 }
 
 .GhostFaceRodape {
-  margin-top: 5%;
-  width: 500px;
-  height: 200px;
+  margin-top: 45%;
+  width: 200px;
+  height: 80px;
 }
 
 .copyright {
-	color: #000000;
-	font-size: 30px;
+  color: #000000;
+  font-size: 15px;
 }
 
 /* TEXTO PARA MOSTRAR QUE A PÁGINA ESTÁ EM CONSTRUÇÃO (ALTERAR NOME DEPOIS) */
