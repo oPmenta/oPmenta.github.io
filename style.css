@@ -88,11 +88,38 @@ div a:hover {
 
 /* PÁGINA DE CONTATO */
 
-.texto-contato {
+.texto-contato1 {
   text-align: center;
   padding: 1px 5%;
   font-size: 20px;
   color: #000000;
+}
+
+.texto-contato2 {
+  text-align: center;
+  padding: 1px 5%;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 15%;
+}
+
+form label{
+  margin-bottom: 40%;
+  margin-left: 34%;
+  font-size: 20px;
+  text-align: center;
+}
+
+form input{
+  margin-bottom: 10px;
+  margin-left: 34%;
+  padding: 10px 20px;
+  width: 30%;
+}
+
+form textarea{
+  margin-bottom: 10px;
+  margin-left: 34%;
 }
 
 /* PÁGINA DE RANKING */
