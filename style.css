@@ -9,7 +9,6 @@ body {
   width: 60%;
   min-height: 600px;
   margin: 0 auto;
-  margin-bottom: 2%;
 }
 
 /* MENU */
@@ -103,36 +102,32 @@ div a:hover {
   margin-bottom: 10%;
 }
 
-form label{
+form label {
   margin-left: 34%;
   font-size: 20px;
   text-align: center;
 }
 
-form input{
+form input {
   margin-bottom: 10px;
   margin-left: 34%;
   padding: 10px 10px;
   width: 30%;
 }
 
-form textarea{
+form textarea {
   margin-bottom: 10px;
   margin-left: 34%;
 }
 
-.form
-{
+.form {
   display: inline-block;
   margin-bottom: 5px;
 }
 
-#email
-{
+#email {
   display: inline-block;
 }
-
-
 
 /* PÁGINA DE RANKING */
 
@@ -243,11 +238,14 @@ h2 {
 
 footer {
   text-align: center;
-  padding: 40px;
+  background: #eeeeee;
+  margin-bottom: 2%;
+  width: 60%;
+  min-height: 120px;
+  margin: 0 auto;
 }
 
 .GhostFaceRodape {
-  margin-top: 45%;
   width: 200px;
   height: 80px;
 }
@@ -265,3 +263,55 @@ footer {
   font-size: 25px;
   color: #000000;
 }
+
+.texto1-lermais {
+  padding: 70px 5%;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.texto2-lermais {
+  width: 600px;
+  font-size: 17px;
+  color: #000000;
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+
+.texto3-lermais {
+  padding: 150px 5%;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.texto4-lermais {
+  width: 600px;
+  font-size: 17px;
+  color: #000000;
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+
+.texto5-lermais {
+  width: 600px;
+  font-size: 17px;
+  color: #000000;
+  font-weight: lighter;
+}
+
+.texto6-lermais {
+  width: 600px;
+  font-size: 17px;
+  color: #000000;
+  font-weight: lighter;
+  margin-bottom: 50%;
+}
+
+
+.video1 {
+  float: right;
+  padding: 70px 5%;
+}
+
