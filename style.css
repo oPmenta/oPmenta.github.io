@@ -1,7 +1,7 @@
 body {
-  background: #292828;
   font-family: "Montserrat", sans-serif;
   overflow-y: scroll;
+  background: linear-gradient(#292828, #4f4f4f);
 }
 
 .background {
@@ -55,11 +55,34 @@ nav a:hover {
   color: red;
 }
 
+nav li ul {
+  position: absolute;
+  top: 23px;
+  left: 250px;
+  display: none;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav li ul li {
+  display: block;
+  width: 230px;
+}
+
+nav li ul .menuContato {
+  position: absolute;
+  top: 1px;
+  left: 183px;
+}
+
 /* PÁGINA DE INICIO*/
 
 .texto {
   position: absolute;
   display: flex;
+  text-shadow: 1px 1px #ff0000;
 }
 
 div a:hover {
@@ -265,7 +288,7 @@ footer {
 }
 
 .texto2-lermais {
-  width: 600px;
+  width: 400px;
   font-size: 17px;
   color: #000000;
   font-weight: lighter;
@@ -280,7 +303,7 @@ footer {
 }
 
 .texto4-lermais {
-  width: 600px;
+  width: 400px;
   font-size: 17px;
   color: #000000;
   font-weight: lighter;
@@ -288,24 +311,23 @@ footer {
 }
 
 .texto5-lermais {
-  width: 600px;
+  width: 400px;
   font-size: 17px;
   color: #000000;
   font-weight: lighter;
 }
 
 .texto6-lermais {
-  width: 600px;
+  width: 400px;
   font-size: 17px;
   color: #000000;
   font-weight: lighter;
   margin-bottom: 25%;
 }
 
-
 .video1 {
   float: right;
-  padding: 70px 5%;
+  box-shadow: -10px 10px 20px rgba(255,0,0,0.5);
 }
 
 /* TEXTO PARA MOSTRAR QUE A PÁGINA ESTÁ EM CONSTRUÇÃO (ALTERAR NOME DEPOIS) */
@@ -316,4 +338,3 @@ footer {
   font-size: 25px;
   color: #000000;
 }
-
