@@ -7,7 +7,7 @@ body {
 .background {
   background: #eeeeee;
   width: 60%;
-  min-height: 600px;
+  min-height: 700px;
   margin: 0 auto;
 }
 
@@ -262,10 +262,10 @@ h2 {
 footer {
   text-align: center;
   background: #eeeeee;
-  margin-bottom: 2%;
   width: 60%;
-  min-height: 120px;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 1px;
 }
 
 .GhostFaceRodape {
